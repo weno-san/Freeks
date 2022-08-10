@@ -1,3 +1,4 @@
+# 0809
 # terminalはコマンドと同義　最初にgit initした
 # 左バナー、上から３番目（ソースこんとろーる）クリック
 # 該当するファイルの＋ボタンを押す
@@ -7,10 +8,10 @@
 
 # staging　はcommit前の＋ボタンを押した状態のこと
 
-<<<<<<< HEAD
-tryi to merge again 
-super test again
+プルリクテスト用
 
+#0811
+【自己解決したもの】
 ・コミットしたはずが、githubに反映されていない
  　⇨　git push をしないと反映されないっぽい。commitだけじゃだめっぽい
  　⇨　あるいは、ソースコントロールの3点リーダーからpushを選択する
@@ -19,19 +20,16 @@ super test again
   　　⇨ master でpythonを見た時と sub　でpythonを見た時のファイルの状態が違う
 ・ブランチを切り替える前に変更をコミットしないといけない？
 
-【質問】VScodeで作った新しいbranchをgitbubに反映するにはどうしたら良いのか
+【質問】
+VScodeで作った新しいbranchをgitbubに反映するにはどうしたら良いのか
 ⇨demoってのが作れない。github上は作れたのだけど(たぶんdemoとmasterが同じ扱い)git checkout demoができるけど、githubではmasterにマージされる
 
 (HEAD -> master, tag: v1.0, origin/master)
 これってどういう意味？
 
-# tag
+【めも】
 git tag -a "tag name" -m "comment"
 git show {tag name}
 git push origin {tag name}
 git tag -d {tag name}
-* {} は不要
-=======
->>>>>>> d05d24bfc859c06f5fdb891368333a437ba20500
-
-gonna merge them
+⇨ {} は不要
