@@ -20,4 +20,12 @@ super test again
 【質問】VScodeで作った新しいbranchをgitbubに反映するにはどうしたら良いのか
 ⇨demoってのが作れない。github上は作れたのだけど(たぶんdemoとmasterが同じ扱い)git checkout demoができるけど、githubではmasterにマージされる
 
-これはdemoのテスト変更
+(HEAD -> master, tag: v1.0, origin/master)
+これってどういう意味？
+
+# tag
+git tag -a "tag name" -m "comment"
+git show {tag name}
+git push origin {tag name}
+git tag -d {tag name}
+* {} は不要
