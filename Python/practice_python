@@ -7,6 +7,7 @@
 
 # staging　はcommit前の＋ボタンを押した状態のこと
 
+<<<<<<< HEAD
 tryi to merge again 
 super test again
 
@@ -30,3 +31,7 @@ git show {tag name}
 git push origin {tag name}
 git tag -d {tag name}
 * {} は不要
+=======
+>>>>>>> d05d24bfc859c06f5fdb891368333a437ba20500
+
+gonna merge them
