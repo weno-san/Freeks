@@ -19,3 +19,17 @@ for place in all_place:
         print(place + "のチケットは結果待ち")
     else:
         print(place + "のチケットは落選しました")
+
+# 問2-1.(回答もらったのにうまく動かず)
+
+all_place = ["札幌","東京","横浜","大阪","名古屋","福岡"]
+wait_place = ["札幌","大阪"]
+get_place = ["横浜"]
+
+for place in all_place:
+    if get_place in place:
+        print(place + "のチケットは当選しました！")
+    if wait_place in place:
+        print(place + "のチケットは結果待ち")
+    else:
+        print(place + "のチケットは落選しました")
